@@ -1,45 +1,79 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* noto-serif-oriya-500 - latin */
+@font-face {
+	font-family: 'Noto Serif Oriya, Arial, Helvetica, sans-serif';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/noto-serif-oriya-v2-latin-500.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('../fonts/noto-serif-oriya-v2-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/noto-serif-oriya-v2-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/noto-serif-oriya-v2-latin-500.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/noto-serif-oriya-v2-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/noto-serif-oriya-v2-latin-500.svg#NotoSerifOriya') format('svg'); /* Legacy iOS */
+  }
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
-  padding: 5px;
+  background-color: #335c67;
+  padding: 1%;
   text-align: center;
-  font-size: 35px;
+  font-size: 185%;
+  
 }
 
+h1{
+	color: #fff3b0;
+}
+
+h2 {
+	margin: 1% 1% 1% 37%;
+}
+/* Style images */
 img { max-width: 35%;
 	float:left;
-	margin: 0 15px 0 0;
-	border: 5px solid gray; margin: 1px;
+	margin-right: 2%;
+	margin-bottom: 1%;
 }
 
 
+/* Style p tag */
 p {
-	padding: 10px;
-    margin: 0 2px 0 0;
+    margin: 1% 1% 1% 1%;
+	font-size: 135%;
 }
 
-
-
-
-
-
-
-
-
-
-/* Style the footer */
-.footer {
-  background-color: gray;
-  padding: 10px;
-  text-align: center;
+/* List Styling */
+ul {
+	margin: 1px 1px 1px 37%;
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	list-style: none;
 }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other, hopefully */
-@media (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
+label {
+	margin: 1px 1px 1px 26%;
+	font-size: 150%;
 }
+
+/* Link Styling */
+a {
+	float:left;
+	font-size: 135%;
+	font-style: oblique;
+
+}
+a:link {
+	color: palevioletred;
+	background-color: transparent;
+	text-decoration: none;
+ }
+ a:visited {
+	color: deepskyblue;
+	background-color: transparent;
+	text-decoration: none;
+ }
+ a:active {
+	color: brown;
+	background-color: transparent;
+ }
+
